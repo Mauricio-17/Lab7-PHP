@@ -15,13 +15,23 @@
     <div class="container">
         <h1>PROMEDIO DE NOTAS</h1>
         <form class="row" action="E2.php" method="post">
-            <input type="number" class="form-control col-3 my-2" name="nota1" placeholder="NOTA 1">
-            <input type="number" class="form-control col-3 my-2" name="nota2" placeholder="NOTA 2">
-            <input type="number" class="form-control col-3 my-2" name="nota3" placeholder="NOTA 1">
-            <input type="submit" class="btn btn-primary col-3 my-2" value="CALCULAR">
+            <div class="col-4 my-2">
+                <input type="number" class="form-control " name="nota1" placeholder="NOTA 1">
+            </div>
+            <div class="col-4 my-2">
+                <input type="number" class="form-control " name="nota2" placeholder="NOTA 2">
+            </div>
+            <div class="col-4 my-2">
+                <input type="number" class="form-control " name="nota3" placeholder="NOTA 1">
+            </div>
+            <div class="col-4 my-2">
+                <input type="submit" class="btn btn-primary " value="CALCULAR">
+            </div>
+
         </form>
         <hr>
-        <h3> PROMEDIO:
+        <h3> 
+            PROMEDIO:
             <br>
             <?php
             if ($_POST) {
