@@ -14,6 +14,7 @@
     $num1 = random_int(1, 6);
     $num2 = random_int(1, 6);
     $num3 = random_int(1, 6);
+    
     $list = array($num1, $num2, $num3);
 
     $count = 0;
